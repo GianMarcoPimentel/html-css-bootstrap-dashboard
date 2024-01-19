@@ -11,9 +11,6 @@ nav{
     width: 100vw;
 }
 aside {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     width: 180px;
     height: 100%;
 
