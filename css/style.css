@@ -1,17 +1,19 @@
-main [class*="col"]{
-    border: 1px dashed red;
-    
-    padding: 10px;
-}
-main [class*="col-8"],
-main [class*="col-4"]
-{
-    border: 1px dashed red;
-    height: 700px;
-    padding-top: 20px;
-}
 nav{
     height: 100px;
+}
+.my-font{
+    font-size:  35px;
+}
+.main-center .fa-solid{
+    background-color: white;
+    color: gray;
+    border: 1px gray solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+.main-top{
+    height: 180px;
+    background-color: blue;
 }
 #explorer {
     display: flex;  
