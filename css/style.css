@@ -7,7 +7,7 @@ nav{
 }
 #explorer {
     display: flex;  
-    height: 100vh;
+    height: calc(100vh - 100px);
     width: 100vw;
 }
 aside {
@@ -21,7 +21,6 @@ aside {
     padding: 20px 20px 0;
 }
 main{
-    width: calc(100% - 180px);
     height: 100%;
 
     background-color: red;
