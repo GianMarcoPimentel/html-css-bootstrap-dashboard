@@ -1,6 +1,14 @@
 main [class*="col"]{
-    border: 1px dashed white;
+    border: 1px dashed red;
+    
     padding: 10px;
+}
+main [class*="col-8"],
+main [class*="col-4"]
+{
+    border: 1px dashed red;
+    height: 700px;
+    padding-top: 20px;
 }
 nav{
     height: 100px;
@@ -23,5 +31,5 @@ aside {
 main{
     height: 100%;
 
-    background-color: red;
+    ;
 }
