@@ -4,6 +4,9 @@ nav{
 .my-font{
     font-size:  35px;
 }
+.my-bg{
+    background-color: #165BBA;
+}
 main{
     
     width: calc(100% - 190px);
