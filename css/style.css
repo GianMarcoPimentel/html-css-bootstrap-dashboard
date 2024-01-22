@@ -1,5 +1,5 @@
 nav{
-    height: 100px;
+    height: 56px;
 }
 .my-font{
     font-size:  35px;
@@ -12,17 +12,17 @@ nav{
     padding: 5px;
 }
 .main-top{
-    height: 180px;
-    background-color: blue;
+    height: 170px;
+    
 }
 #explorer {
     display: flex;  
-    height: calc(100vh - 100px);
+    height: calc(100vh - 56px);
     width: 100vw;
 }
 aside {
-    width: 180px;
-    height: 100%;
+    width: 190px;
+    
 
     background-color: black;
     color: white;
@@ -31,7 +31,7 @@ aside {
     padding: 20px 20px 0;
 }
 main{
-    height: 100%;
-
+    
+    width: calc(100% - 190px)
     ;
 }
