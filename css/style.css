@@ -14,10 +14,10 @@ main{
     
     width: calc(100% - 190px);
 }
-.main-top .fa-solid{
+/* .main-top .fa-solid{
     border: 1px solid white;
 
-}
+} */
 .main-center .fa-solid{
     background-color: white;
     color: gray;
@@ -33,11 +33,11 @@ main{
 }
 aside {
     width: 190px;
-    
-    background-image: url();
     background-color: #051E34 ;
     color: white;
-    /* font-weight: bold;
-
-    padding: 20px 20px 0; */
+}
+.bg-img{
+    background-image: url(/img/sidebar-bg.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
