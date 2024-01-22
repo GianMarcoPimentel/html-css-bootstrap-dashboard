@@ -1,11 +1,14 @@
-nav{
+/* nav{
     height: 56px;
-}
+} */
 .my-font{
     font-size:  35px;
 }
 .my-bg{
     background-color: #165BBA;
+}
+.bg-input{
+    background-color: #E5E5E5;
 }
 main{
     
@@ -31,7 +34,7 @@ main{
 aside {
     width: 190px;
     
-
+    background-image: url();
     background-color: #051E34 ;
     color: white;
     /* font-weight: bold;
