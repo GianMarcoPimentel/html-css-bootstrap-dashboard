@@ -4,6 +4,14 @@ nav{
 .my-font{
     font-size:  35px;
 }
+main{
+    
+    width: calc(100% - 190px);
+}
+.main-top .fa-solid{
+    border: 1px solid white;
+
+}
 .main-center .fa-solid{
     background-color: white;
     color: gray;
@@ -11,9 +19,7 @@ nav{
     border-radius: 3px;
     padding: 5px;
 }
-.main-top{
-    height: 170px;
-}
+
 #explorer {
     display: flex;  
     height: calc(100vh - 56px);
@@ -23,14 +29,9 @@ aside {
     width: 190px;
     
 
-    background-color: black;
+    background-color: #051E34 ;
     color: white;
-    font-weight: bold;
+    /* font-weight: bold;
 
-    padding: 20px 20px 0;
-}
-main{
-    
-    width: calc(100% - 190px)
-    ;
+    padding: 20px 20px 0; */
 }
