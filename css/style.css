@@ -13,12 +13,11 @@ nav{
 }
 .main-top{
     height: 170px;
-    
 }
 #explorer {
     display: flex;  
     height: calc(100vh - 56px);
-    width: 100vw;
+    
 }
 aside {
     width: 190px;
