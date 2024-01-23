@@ -20,8 +20,11 @@
 
     <nav class="navbar bg-body-tertiary">
         <form class="container-fluid bg-white">
-            <div class="col-2 d-flex align-items-center">
+            <div class="col-2 d-flex align-items-center d-none d-xl-block">
                 <img src="./img/logo.svg" alt="Logo Boolean Intero">
+            </div>
+            <div class="col-1 d-xl-none">
+                <img src="./img/mobile-logo.png" alt="Logo Boolean senza testo" class="img-fluid ">
             </div>
             <div class="col d-flex align-items-center bg-input  rounded-2  ">
                 <i class="fa-solid fa-magnifying-glass ms-2"></i>
@@ -30,12 +33,12 @@
                   <!-- <input type="text" class="form-control" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Prova a cercare: Lezioni di Laravel" aria-describedby="basic-addon1"> -->
                 </div>
             </div>
-            <div class="col-2 ">
-                <ul class="d-flex justify-content-around mt-3 align-items-center gap-3 list-unstyled ">
-                    <li><i class="fa-solid fa-list"></i></li>
-                    <li><i class="fa-solid fa-circle-question"></i></li>
-                    <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
-                    <li><i class="fa-solid fa-bell text-warning "></i></li>
+            <div class="col-1">
+                <ul class="d-flex justify-content-between px-3 mt-3 align-items-center gap-3 list-unstyled ">
+                    <li class="d-none d-xl-block"><i class="fa-solid fa-list "></i></li>
+                    <li class="d-none d-xl-block"><i class="fa-solid fa-circle-question"></i></li>
+                    <li class="d-none d-xl-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    <li class="" ><i class="fa-solid fa-bell text-warning"></i></li>
                 </ul>
             </div>
         </form>
@@ -49,17 +52,17 @@
                         <i class="fa-solid fa-house "></i>
                     </div>
                     <div class="col">
-                        <span>
+                        <span class="d-none d-xl-block">
                             Home
                         </span>
                     </div>
                 </div>
                 <div class="row gap-2">
-                    <div class="col-2 offset-2  ">
+                    <div class="col-2 offset-2   ">
                         <i class="fa-solid fa-chart-simple"></i>
                     </div>
                     <div class="col">
-                        <span>
+                        <span class="d-none d-xl-block">
                             Stats
                         </span>
                     </div>
@@ -69,7 +72,7 @@
                         <i class="fa-solid fa-signal"></i>
                     </div>
                     <div class="col">
-                        <span>
+                        <span class="d-none d-xl-block">
                             Signals
                         </span>
                     </div>
@@ -82,7 +85,7 @@
                         <i class="fa-solid fa-gear"></i>
                     </div>
                     <div class="col">
-                        <span>Admin</span>
+                        <span class="d-none d-xl-block">Admin</span>
                     </div>
                 </div>
             </div>  
@@ -129,272 +132,272 @@
             <div class="main-center mt-4">
                 <div class="container">           
                     <div class="row">
-                        <div class="col-8 d-flex flex-column gap-4">
+                        <div class="col-12 col-xl-8  d-flex flex-column gap-4">
                             <div class="col">
-                                <div class="card" style="width: 100%;">
-                                    <div class="card-header">
+                                <div class="card font-small " style="width: 100%;">
+                                    <div class="card-header my-font my-font">
                                       Prossime classi
                                     </div>
                                     <ul class="list-group list-group-flush ">
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row fw-semibold ">
-                                                <div class="col-2">
-                                                    Name
-                                                </div>
-                                                <div class="col-2 offset-4  ">
-                                                    Data Inizio
-                                                </div>
-                                                <div class="col-1">
-                                                    Roi
-                                                </div>
-                                                <div class="col-1">
-                                                Stato
-                                                </div>
-                                                <div class="col-2 text-center">
-                                                    Azioni
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 75
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    16 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
-                                                    
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                        </div>
-                                        
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 76
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    16 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
-                                                    
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 77
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    17 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn bg-warning rounded-3 text-white" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">process</button>                                  
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 78
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    18 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
-                                                    
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 79
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    19 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-danger rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">failed</button>
-                                                    
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 80
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    20 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
-                                                    
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 81
-                                                    </div>
-                                                    
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    21 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-danger rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">failed</button>                                                 
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                      <li class="list-group-item">
-                                        <div class="container">
-                                            <div class="row">
-                                                <div class="col-2 d-flex align-items-center gap-2">
-                                                    <div class="col-3">
-                                                        <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
-                                                    </div>
-                                                    <div class="col-9">
-                                                        Classe 82
-                                                    </div>                                               
-                                                </div>
-                                                <div class="col-2 offset-4 ">
-                                                    22 Feb 2021
-                                                </div>
-                                                <div class="col-1">
-                                                    20%
-                                                </div>
-                                                <div class="col-1">
-                                                    <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
-                                                </div>
-                                                <div class="col-2 d-flex justify-content-center  align-items-center gap-2 text-center">
-                                                    <i class="fa-solid fa-pencil"></i>    
-                                                    <i class="fa-solid fa-trash"></i>                                           
-                                                </div>
-                                            </div>
-                                        </div>
-                                      </li>
-                                    </ul>
-                                  </div>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row fw-semibold ">
+                                                  <div class="col-lg-2 col-6">
+                                                      Name
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-4 d-none d-lg-block ">
+                                                      Data Inizio
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      Roi
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                  Stato
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 text-center">
+                                                      Azioni
+                                                  </div>
+        
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 75
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block">
+                                                      16 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3 ">
+                                                      <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                          </div>
+                                          
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 76
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block ">
+                                                      16 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 77
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block ">
+                                                      17 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn bg-warning rounded-3 text-white" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">process</button>                                  
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 78
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block">
+                                                      18 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 79
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block">
+                                                      19 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn btn-danger rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">failed</button>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 80
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block ">
+                                                      20 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 81
+                                                      </div>
+                                                      
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block ">
+                                                      21 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn btn-danger rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">failed</button>                                                 
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                          <div class="container">
+                                              <div class="row">
+                                                  <div class="col-lg-3 col-6 d-flex align-items-center gap-2">
+                                                      <div class="col-lg-2 col-1">
+                                                          <img src="./img/class-avatar.jpg" alt="" class="img-fluid ">
+                                                      </div>
+                                                      <div class="col">
+                                                          Classe 82
+                                                      </div>                                               
+                                                  </div>
+                                                  <div class="col-lg-2 offset-lg-3 d-none d-lg-block ">
+                                                      22 Feb 2021
+                                                  </div>
+                                                  <div class="col-lg-1 d-none d-lg-block">
+                                                      20%
+                                                  </div>
+                                                  <div class="col-lg-1 col-3">
+                                                      <button type="button" class="btn btn-success  rounded-3" style="--bs-btn-padding-y: 0rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Done</button>
+                                                  </div>
+                                                  <div class="col-lg-2 col-3 d-flex justify-content-center  align-items-center gap-2 text-center">
+                                                      <i class="fa-solid fa-pencil"></i>    
+                                                      <i class="fa-solid fa-trash"></i>                                           
+                                                  </div>
+                                              </div>
+                                          </div>
+                                        </li>
+                                      </ul>
+                                </div>
                             </div>
                             <div class="col">
-                                    <div class="card" style="width: 100%;">
-                                        <div class="card-header">
+                                    <div class="card mb-3" style="width: 100%;">
+                                        <div class="card-header my-font">
                                           F.A.Q.
                                         </div>
-
+        
                                         <div class="accordion accordion-flush mx-4" id="accordionFlushExample">
                                             <div class="accordion-item">
                                               <h2 class="accordion-header">
@@ -439,11 +442,11 @@
                                 
                             </div>             
                         </div>
-
-                        <div class="col-4 d-flex flex-column ">
+        
+                        <div class="col-12 col-xl-4 d-flex flex-column ">
                             <div class="col">
                                 <div class="card" style="width: 100%;">
-                                    <div class="card-header">
+                                    <div class="card-header my-font">
                                       Todo
                                     </div>
                                     <ul class="list-group p-3">

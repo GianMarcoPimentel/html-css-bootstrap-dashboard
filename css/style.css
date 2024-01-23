@@ -2,11 +2,14 @@
     height: 56px;
 } */
 .my-font{
-    font-size:  35px;
+    font-size:  25px;
 }
 .my-bg{
     background-color: #165BBA;
 }
+/* .font-small{
+    font-size: 0.8em;
+} */
 .bg-input{
     background-color: #E5E5E5;
 }
@@ -35,6 +38,12 @@ aside {
     width: 190px;
     background-color: #051E34 ;
     color: white;
+}
+@media screen and(max-width:576px) {
+    aside{
+        width: 8px;
+    }
+    
 }
 .bg-img{
     background-image: url(/img/sidebar-bg.png);
